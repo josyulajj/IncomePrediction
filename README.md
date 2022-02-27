@@ -1,7 +1,7 @@
 # IncomePrediction
 
 ## Define the ML model objective
-The main objective is to build a binary classification model that predicts the target income for individuals based on the given census data. Given the small sample size, we use the k-fold cross-validation method in Autopilot to help us improve model scoring metrics. Additionally, we use the model explainability report generated through the Autopilot job to help us understand how each feature in the dataset contributes to the model outcome.
+The main objective is to build a multiclass classification model that predicts the target income for individuals based on the given census data. Given the small sample size, we use the k-fold cross-validation method in Autopilot to help us improve model scoring metrics. Additionally, we use the model explainability report generated through the Autopilot job to help us understand how each feature in the dataset contributes to the model outcome.
 
 ## Public census data
 For this experiment, we use the public census data (Dua, D. and Graff, C. (2019). UCI Machine Learning Repository. Irvine, CA: University of California, School of Information and Computer Science) for training and validation data. The prediction task is to determine whether a person makes over $50,000 a year.
@@ -23,6 +23,4 @@ This dataset contains 14 features that cover the diversity of demographic charac
 * Hours-per-week – Work hours per week
 * Country – Country of origin
 * Target – <=$50,000, >$50,000
-
-## AWS SageMaker AutoPilot Screencaptures
 
